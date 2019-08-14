@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/GroupDocsAnnotation",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "GroupDocs Annotation allow to view and annotate documents and images from GroupDocs Account",
+    "authors": [
+    {
+        "name": "Marketplace",
+        "email": "support@groupdocs.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gda_Groupdocsannotation>
+            <version>0.1.0</version>
+        </Gda_Groupdocsannotation>
+    </modules>
+    
+    <global>
+        
+    <blocks>
+         <adminhtml>
+            <rewrite>
+                <cms_page_edit>Gda_Groupdocsannotation_Block_Adminhtml_Cms_Page_Edit</cms_page_edit>
+            </rewrite>
+        </adminhtml>
+    </blocks>
+
+        
+        <models>
+            <groupdocsannotation>
+                <class>Gda_Groupdocsannotation_Model</class>
+                <resourceModel>groupdocsannotation_mysql4</resourceModel>
+            </groupdocsannotation>
+            <groupdocsannotation_mysql4>
+                <class>Gda_Groupdocsannotation_Model_Mysql4</class>
+                <entities>
+                    <groupdocsannotation>
+                        <table>groupdocsv</table>
+                    </groupdocsannotation>
+                </entities>
+            </groupdocsannotation_mysql4>
+        </models>
+<resources>
+        <groupdocsannotation_write>
+            <connection>
+                <use>core_write</use>
+            </connection>
+        </groupdocsannotation_write>
+
+       <groupdocsannotation_read>
+          <connection>
+             <use>core_read</use>
+          </connection>
+       </groupdocsannotation_read>
+       
+       <groupdocsannotation_delete>
+          <connection>
+             <use>core_delete</use>
+          </connection>
+       </groupdocsannotation_delete>
+</resources>
+
+        
+        
+        
+        
+        <blocks>
+            <groupdocsannotation>
+                <class>Gda_Groupdocsannotation_Block</class>
+            </groupdocsannotation>
+        </blocks>
+        <helpers>
+            <groupdocsannotation>
+                <class>Gda_Groupdocsannotation_Helper</class>
+            </groupdocsannotation>  
+        </helpers>
+    </global>
+    
+    <admin>
+        <routers>
+            <groupdocsannotation>
+                <use>admin</use>
+                <args>
+                    <module>Gda_Groupdocsannotation</module>
+                    <frontName>groupdocsannotation</frontName>
+                </args>
+            </groupdocsannotation>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+        
+        <menu>
+            <catalog>
+                <children>
+                    <groupdocsannotation_adminform translate="title" module="groupdocsannotation">
+                        <title>Groupdocs Anotation</title>
+                        <action>groupdocsannotation/adminhtml_viewer</action>
+                    </groupdocsannotation_adminform>
+                </children>
+            </catalog>
+        </menu>
+        
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <catalog>
+                            <children>
+                                <groupdocsannotation_adminform>
+                                    <title>Groupdocs Anotation</title>
+                                </groupdocsannotation_adminform>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        
+        <layout>
+            <updates>
+                <groupdocsannotation>
+                    <file>groupdocsannotation.xml</file>
+                </groupdocsannotation>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

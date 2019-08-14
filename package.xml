@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>GroupDocsAnnotation</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>GroupDocs Annotation allow to view and annotate documents and images from GroupDocs Account</summary>
+    <description>GroupDocs Annotation allow to view and annotate documents and images from GroupDocs Account. Functionalities like File Upload and GroupDocs Acc. File Browsing avalible from "ver. 1.3". &#xD;
+GroupDocs is a next generation Document Management solution that makes it easier for businesses to collaborate, share and work with documents online. So, organise, view, annotate, compare, assemble and share all your documents with Magento&#xD;
+For more details go to: http://groupdocs.com</description>
+    <notes>This is the first version of plugin</notes>
+    <authors><author><name>Marketplace</name><user>groupdocs</user><email>support@groupdocs.com</email></author></authors>
+    <date>2012-11-26</date>
+    <time>06:50:17</time>
+    <contents><target name="magelocal"><dir><dir name="Gda"><dir name="Groupdocsannotation"><dir name="Block"><dir name="Adminhtml"><file name="Groupdocsannotation.php" hash="8a8a709a7a43f13abea6062830903a82"/><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="932efec00043beda371bac70f96c2b89"/></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerController.php" hash="5fee77f4fa3fb5de83ad8582d4fc8f3a"/></dir></dir><dir name="etc"><file name="config.xml" hash="fe330fab17c370936e182b8c6e87130a"/></dir><dir name="Helper"><file name="Data.php" hash="5f30d82096dc6053d5a380d9916fa448"/></dir><dir name="Model"><dir name="Mysql4"><file name="groupdocsannotation.php" hash="4362cd11eb1a124f6576946530e7f95c"/><file name="groupdocsannotation.php" hash="4362cd11eb1a124f6576946530e7f95c"/><dir name="Groupdocsannotation"><file name="Collection.php" hash="1605eccfdf2256de3ad8c74920ca4410"/></dir></dir><file name="groupdocsannotation.php" hash="75092db6c48c719265eaf2f170d36da7"/></dir><dir name="sql"><dir name="Groupdocsannotation_setup"><file name="mysql4-install-0.1.0" hash="93af873794fedc03517b63fa587ef64b"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Gda_Groupdocsannotation.xml" hash="973c8babff9adb5a0e01bf21b1fef4a9"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.8</max></php></required></dependencies>
+</package>
