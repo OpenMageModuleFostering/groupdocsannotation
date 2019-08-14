@@ -27,7 +27,7 @@
         // all good continue
         var cmsName = 'Magento'
         var cmsVersion = '1.7'
-        var iframe = '<iframe src="https://apps.groupdocs.com/document-annotation/embed/'+ans+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="600" height="400"></iframe>';
+        var iframe = '<iframe src="https://apps.groupdocs.com/document-annotation/embed/'+ans+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="600" height="400">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. Check out more details about GroupDocs <a href="http://groupdocs.com/apps/annotation">pdf annotation</a> application to see what it can do for you!</iframe>';
         var tinyMceContent = tinyMCE.activeEditor.getContent();
         // set content
         tinyMCE.activeEditor.setContent(tinyMceContent+iframe);

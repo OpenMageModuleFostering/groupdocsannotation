@@ -1,20 +1,31 @@
 <?xml version="1.0"?>
 <package>
     <name>GroupDocsAnnotation</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
-    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <license>GPL</license>
     <channel>community</channel>
     <extends/>
-    <summary>GroupDocs Annotation allow to view and annotate documents and images from GroupDocs Account</summary>
-    <description>GroupDocs Annotation allow to view and annotate documents and images from GroupDocs Account. Functionalities like File Upload and GroupDocs Acc. File Browsing avalible from "ver. 1.3". &#xD;
-GroupDocs is a next generation Document Management solution that makes it easier for businesses to collaborate, share and work with documents online. So, organise, view, annotate, compare, assemble and share all your documents with Magento&#xD;
-For more details go to: http://groupdocs.com</description>
-    <notes>Client CMS name tracking was added(referer parameter in the URL)</notes>
-    <authors><author><name>Marketplace</name><user>groupdocs</user><email>support@groupdocs.com</email></author></authors>
-    <date>2012-11-30</date>
-    <time>12:19:50</time>
-    <contents><target name="magelocal"><dir><dir name="Gda"><dir name="Groupdocsannotation"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="071b91fc49f2df69f10b342ca2298aee"/></dir></dir><file name="Groupdocsannotation.php" hash="8a8a709a7a43f13abea6062830903a82"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerController.php" hash="5fee77f4fa3fb5de83ad8582d4fc8f3a"/></dir></dir><dir name="etc"><file name="config.xml" hash="fe330fab17c370936e182b8c6e87130a"/></dir><dir name="Helper"><file name="Data.php" hash="5f30d82096dc6053d5a380d9916fa448"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Groupdocsannotation"><file name="Collection.php" hash="1605eccfdf2256de3ad8c74920ca4410"/></dir><file name="groupdocsannotation.php" hash="4362cd11eb1a124f6576946530e7f95c"/><file name="groupdocsannotation.php" hash="4362cd11eb1a124f6576946530e7f95c"/></dir><file name="groupdocsannotation.php" hash="75092db6c48c719265eaf2f170d36da7"/></dir><dir name="sql"><dir name="Groupdocsannotation_setup"><file name="mysql4-install-0.1.0" hash="93af873794fedc03517b63fa587ef64b"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Gda_Groupdocsannotation.xml" hash="973c8babff9adb5a0e01bf21b1fef4a9"/></dir></dir></target></contents>
+    <summary>Publish documents, annotate, collaborate and comment with GroupDocs Annotation.</summary>
+    <description>The &lt;a href="http://groupdocs.com/apps/annotation"&gt;GroupDocs Annotation &lt;/a&gt;extension lets you embed documents complete with GroupDocs Annotation into Magento sites.&#xD;
+&#xD;
+GroupDocs Annotation is an online application for annotating and commenting on documents. With this powerful tool, you and your colleagues can share and collaborate on documents in real time - annotate, comment and draw - to improve communication and speed up document review. Get input from colleagues in other offices quickly and work together effectively.&#xD;
+&#xD;
+GroupDocs Annotation is used to &lt;a href="http://groupdocs.com/apps/annotation"&gt;annotate&lt;/a&gt; text documents and images so it is useful to editors, writers, designers and their clients, and any team that writes documents. Because GroupDocs Annotation supports many popular text and image file formats, and works in a web browser, it overcomes cross-platform and cross-version issues. Use GroupDocs Annotation as an online Microsoft Word annotator, Excel annotator, Adobe PDF annotator, image annotator and so on.&#xD;
+&#xD;
+The extension has an intuitive dashboard of tools that makes it easy to annotate documents. Simply install it to embed GroupDocs Annotation with your documents and publish them to Magento sites.&#xD;
+Features&#xD;
+&lt;br /&gt;&#xD;
+    Collaborate on documents in real time.&#xD;
+    Export annotated documents for editing offline.&#xD;
+    Comment on text and images.&#xD;
+    Highlight text, draw freehand or add comments.&#xD;
+</description>
+    <notes>Updaetd iframe</notes>
+    <authors><author><name>GroupDocs</name><user>Marketplace</user><email>marketplace@groupdocs.com</email></author></authors>
+    <date>2013-05-15</date>
+    <time>05:42:37</time>
+    <contents><target name="magelocal"><dir><dir name="Gda"><dir name="Groupdocsannotation"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="0983cd3470b35bc1a03a164e54eacf12"/></dir></dir><file name="Groupdocsannotation.php" hash="8a8a709a7a43f13abea6062830903a82"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ViewerController.php" hash="5fee77f4fa3fb5de83ad8582d4fc8f3a"/></dir></dir><dir name="etc"><file name="config.xml" hash="fe330fab17c370936e182b8c6e87130a"/></dir><dir name="Helper"><file name="Data.php" hash="5f30d82096dc6053d5a380d9916fa448"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Groupdocsannotation"><file name="Collection.php" hash="1605eccfdf2256de3ad8c74920ca4410"/></dir><file name="groupdocsannotation.php" hash="4362cd11eb1a124f6576946530e7f95c"/><file name="groupdocsannotation.php" hash="4362cd11eb1a124f6576946530e7f95c"/></dir><file name="groupdocsannotation.php" hash="75092db6c48c719265eaf2f170d36da7"/></dir><dir name="sql"><dir name="Groupdocsannotation_setup"><file name="mysql4-install-0.1.0" hash="93af873794fedc03517b63fa587ef64b"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Gda_Groupdocsannotation.xml" hash="973c8babff9adb5a0e01bf21b1fef4a9"/></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.4.8</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.15</max></php></required></dependencies>
 </package>

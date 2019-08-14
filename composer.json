@@ -3,11 +3,11 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "GroupDocs Annotation allow to view and annotate documents and images from GroupDocs Account",
+    "description": "Publish documents, annotate, collaborate and comment with GroupDocs Annotation.",
     "authors": [
     {
-        "name": "Marketplace",
-        "email": "support@groupdocs.com"
+        "name": "GroupDocs",
+        "email": "marketplace@groupdocs.com"
     }
 ],
     "suggest": {
