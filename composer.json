@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/GroupDocsAnnotation",
+    "name": "OpenMageModuleFostering\/GroupDocsAnnotation",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Publish documents, annotate, collaborate and comment with GroupDocs Annotation.",
     "authors": [
-    {
-        "name": "GroupDocs",
-        "email": "marketplace@groupdocs.com"
-    }
-],
+        {
+            "name": "GroupDocs",
+            "email": "marketplace@groupdocs.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
